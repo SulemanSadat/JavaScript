@@ -1,0 +1,378 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+h1{
+    font-size: 30px;
+    position: absolute;
+    margin: 110px 450px;
+}
+input.name{
+    position: absolute;
+    margin: 160px 450px;
+    width: 500px;
+    height: 80px;
+    border-radius:20px ;
+    border: 0px solid ;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px #a0a0a0;
+    color: #2f2f2f;
+    text-indent: 20px;
+    font-size:25px;
+}
+.add{
+    font-size: 20px;
+    position: absolute;
+    margin: 160px 960px;
+    background-color: rgb(75, 141, 255);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+    
+
+}
+.remove{
+  
+    font-size: 15px;
+    position: absolute;
+    margin: 205px 960px;
+    background-color: rgb(75, 141, 255);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+
+}
+.remove:active{
+    background-color:rgb(255, 255, 255) ;
+    color: #000;
+}
+.add:hover{
+    background-color: rgb(75, 141, 255);
+
+
+}
+.add:active{
+    background-color:rgb(255, 255, 255) ;
+    color: #000;
+}
+
+::placeholder{
+    color: #b3b3b3;
+    font-size: 20px;
+}
+div.list1{
+    user-select: none;
+    font-size:25px;
+    position: absolute;
+    margin: 260px 450px;
+    width: 460px;
+    height: 300px;
+    border: 0px dotted black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888888;
+    font-size: 15   px;
+    overflow:auto;
+    scroll-snap-type:mandatory;
+    padding: 10px 20px;
+    
+}
+.sort{
+  
+    font-size: 20px;
+    position: absolute;
+    margin: 255px 960px;
+    background-color: rgb(75, 141, 255);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+
+}
+.sort:active{
+    background-color:rgb(255, 255, 255) ;
+    color: #000;
+}
+
+.unsort{
+  
+    font-size: 20px;
+    position: absolute;
+    margin: 305px 960px;
+    background-color: rgb(75, 141, 255);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+
+}
+.unsort:active{
+    background-color:rgb(255, 255, 255) ;
+    color: #000;
+}
+.removeName{
+    position: absolute;
+    margin: 355px 960px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0.0px solid #c0c0c0;
+    box-shadow: 0px 0px 10px rgba(181, 181, 181, 0.571);
+    text-align: center;
+    font-size: 20px;
+    user-select: none;
+
+}
+
+
+
+.btnremove{
+  
+    font-size: 20px;
+    position: absolute;
+    margin: 405px 960px;
+    background-color: rgb(75, 141, 255);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+
+}
+.btnremove:active{
+    background-color:rgb(255, 255, 255) ;
+    color: #000;
+}
+
+
+
+.refresh{
+    font-size: 20px;
+    position: absolute;
+    margin: 450px 960px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    background-color: rgb(75, 141, 255);
+    transition: 0.2s ease;
+    cursor: pointer;
+
+}
+.refresh:active{
+    background-color:rgb(255, 255, 255) ;
+    color: #000;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* Add your CSS styles for mobile devices here */
+	h1{
+    font-size: 30px;
+    position: absolute;
+    margin: 90px 120px;
+	width:200px;
+}
+input.name{
+    position: absolute;
+    margin: 160px 20px;
+    width: 300px;
+    height: 50px;
+    border-radius:10px ;
+    border: 0px solid ;
+    background-color: #FFF;
+    box-shadow: 0px 0px 5px #a0a0a0;
+    color: #2f2f2f;
+    text-indent: 20px;
+    font-size:20px;
+}
+.add{
+    font-size: 15px;
+    position: absolute;
+    margin: 160px 340px;
+    background-color: rgb(75, 141, 255);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+    
+
+}
+.remove{
+  
+    font-size: 12px;
+    position: absolute;
+    margin: 215px 340px;
+    background-color: rgb(75, 141, 255);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+
+}
+.remove:active{
+    background-color:rgb(255, 255, 255) ;
+    color: #000;
+}
+.add:hover{
+    background-color: rgb(75, 141, 255);
+
+
+}
+.add:active{
+    background-color:rgb(255, 255, 255) ;
+    color: #000;
+}
+
+::placeholder{
+    color: #b3b3b3;
+    font-size: 15px;
+}
+div.list1{
+    user-select: none;
+    font-size:15px;
+    position: absolute;
+    margin: 230px 20px;
+    width: 260px;
+    height: 300px;
+    border: 0px dotted none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #888888;
+    font-size: 15   px;
+    overflow:auto;
+    scroll-snap-type:mandatory;
+    padding: 10px 20px;
+    
+}
+.sort{
+  
+    font-size: 15px;
+    position: absolute;
+    margin: 270px 340px;
+    background-color: rgb(75, 141, 255);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+
+}
+.sort:active{
+    background-color:rgb(255, 255, 255) ;
+    color: #000;
+}
+
+.unsort{
+  
+    font-size: 15px;
+    position: absolute;
+    margin: 325px 340px;
+    background-color: rgb(75, 141, 255);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+
+}
+.unsort:active{
+    background-color:rgb(255, 255, 255) ;
+    color: #000;
+}
+.removeName{
+    position: absolute;
+    margin: 380px 340px;
+    width: 95px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0.0px solid #c0c0c0;
+    box-shadow: 0px 0px 10px rgba(181, 181, 181, 0.571);
+    text-align: center;
+    font-size: 15px;
+    user-select: none;
+
+}
+
+
+
+.btnremove{
+  
+    font-size: 15px;
+    position: absolute;
+    margin: 440px 340px;
+    background-color: rgb(75, 141, 255);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+
+}
+.btnremove:active{
+    background-color:rgb(255, 255, 255) ;
+    color: #000;
+}
+
+
+
+.refresh{
+    font-size: 15px;
+    position: absolute;
+    margin: 500px 340px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px solid #FFFFFF;
+    color: white;
+    background-color: rgb(75, 141, 255);
+    transition: 0.2s ease;
+    cursor: pointer;
+
+}
+.refresh:active{
+    background-color:rgb(255, 255, 255) ;
+    color: #000;
+}
+	 
+}
